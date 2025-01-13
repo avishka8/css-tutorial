@@ -1,0 +1,43 @@
+#rectangle{
+    height:300px;
+    width:80px;
+    background-color:grey;
+    border: 2px solid black;
+}
+
+#redlight{
+    align:center;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    padding: 10px 10px 10px 10px;
+    margin-right:5px;
+    margin-left:5px;
+    margin-top:5px; 
+    background-color: red;
+}
+#yellowlight{
+    align:center;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    padding: 10px 10px 10px 10px;
+    margin-right:5px;
+    margin-left:5px;
+    margin-top:35px; 
+    background-color: yellow;
+}
+#greenlight{
+    align:center;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    padding: 10px 10px 10px 10px;
+    margin-right:5px;
+    margin-left:5px;
+    margin-top:35px;
+    margin-bottom:5px; 
+    background-color:green;
+}
+
+
