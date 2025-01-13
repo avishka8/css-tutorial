@@ -1,5 +1,7 @@
 h1{
     color:#EB5A3C;
+    text-align:center;
+    text-decoration: #EB5A3C wavy underline;
 }
 body{
     background-color:#e7d283;
@@ -16,4 +18,33 @@ button {
 }
 .heading {
     color:red;
+    text-decoration: red underline;
+}
+button {
+    background-color: green;
+}
+pre {
+    text-align:center; /*left(start),right(end),center*/
+}
+#s1 {
+    font-weight:lighter;  /*100-900 range*/
+    font-family:Georgia;
+}
+#s2 {
+    font-family:'Lucida Sans'; /*font type*/
+}
+#s3 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#p1 {
+    font-size:18px;
+    line-height:18px;
+}
+#p2 {
+    font-size:12px;
+    text-transform:uppercase;
+}
+#p3 {
+    font-size:10px;
+    text-transform:capitalize;
 }
