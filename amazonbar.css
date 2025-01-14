@@ -7,6 +7,8 @@
     background-color: #0f1111;
     height:60px;
     border: 10px solid white;
+    display:flex;
+    justify-content:space-evenly;
 }
 button{
     background-color: #f08804;
@@ -18,4 +20,8 @@ button{
 }
 a{
     margin-right:200px;
+    text-decoration:none;
+}
+li{
+    display:inline;
 }
