@@ -1,0 +1,49 @@
+#box1{
+    height:500px;
+    width:400px;
+    background-color: green;
+    font-size:40px
+}
+#box2{
+    height:20%;
+    width:30rem;
+    background-color: yellow;
+    font-size:2em; /*multiply 2 by 10 = 20px size of child div*/
+}
+
+h1{
+    font-size:100px;
+}
+.box{
+    width:100px;
+    height:100px;
+    background-color: aqua;
+    display:inline-block;
+    border: 3px solid black;
+    position:relative;
+}
+#b1{
+    position:relative;
+    top:50px;
+    left:70px;
+    z-index:1; /*z-index is used for layering on a web page, like we do layer positions on canva*/
+}
+#b2{
+    position:sticky;
+    top:0px;
+    left:200px;
+}
+#b3{
+    position:absolute;
+
+}
+#b4{
+    position:fixed;
+    top:0px;
+    left:0px;
+}
+/*using unsplash.com for bg image*/
+body{
+    background-image: url("images/codeimg.jpg.jpeg");
+    background-size: cover;
+}
