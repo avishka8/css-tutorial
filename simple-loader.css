@@ -1,0 +1,19 @@
+.loader{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border: 20px solid #4ecde4;
+    border-top: 20px solid yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: rotate 1s ease-in 0s infinite normal;
+}
+@keyframes rotate{
+    from{ 
+        transform: rotate(0deg); 
+    }
+    to{ 
+        transform: rotate(360deg); 
+    }
+}
